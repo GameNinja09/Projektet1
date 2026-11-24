@@ -51,6 +51,7 @@ body {
     background-color: #36CC00;
     color: white;
     width: 150px;
+    height: 200px;
     margin-left: 150px;
 }
 
@@ -62,4 +63,11 @@ body {
 
 #R{
     text-align: center;
+}
+
+#AI-sushi{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 175px;
+    padding-left: 40px;
 }
