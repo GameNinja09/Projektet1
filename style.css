@@ -5,7 +5,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr 5fr 4fr;
-    grid-auto-rows: 20vh 50vh 25vh 10vh;
+    grid-auto-rows: 20vh 25vh 25vh 25vh 10vh;
     /* flex-direction: row;
     display: flex;
     flex-direction: row;
@@ -47,7 +47,7 @@ body {
 
 #GrönBox {
     grid-column: 1/2;
-    grid-row: 3/5;
+    grid-row: 4/6;
     background-color: #36CC00;
     color: white;
     width: 150px;
@@ -57,7 +57,7 @@ body {
 
 #Recept{
     grid-column: 2/3;
-    grid-row: 2/4;
+    grid-row: 2/5;
     background-color: #B0FCFF;
 }
 
@@ -70,4 +70,29 @@ body {
     grid-row: 2/3;
     height: 175px;
     padding-left: 40px;
+}
+
+#Info{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #00AFEF;
+    height: 175px;
+    margin-left: 40px;
+}
+
+#Till{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: #D9D9D9;
+    text-align: center;
+    width: 100px;
+    margin-left: 40px;
+}
+
+#takt{
+    grid-template-columns: 2/3;
+    grid-row: 5/6;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin-top: 20px;
 }
