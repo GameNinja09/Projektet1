@@ -39,30 +39,35 @@ body {
 #RödBox {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: pink;
     width: 200px;
     height: 350px;
     margin-left: 150px;
+    background-color: pink;
     border: solid red;
 }
 
 #GrönBox {
     grid-column: 1/2;
     grid-row: 4/6;
-    background-color: #36CC00;
+    background-color: rgb(24, 172, 71);
     color: white;
     width: 150px;
     height: 200px;
     margin-left: 198.5px;
-    border: solid rgb(0, 255, 204);
-    
+    border: solid rgb(37, 214, 132);
 }
 
 #Recept {
     grid-column: 2/3;
     grid-row: 2/5;
+
+    color: #370602;
+    font-weight: bolder;
+
     background-color: #B0FCFF;
-    border: solid rgb(0, 0, 255)
+    border: solid rgb(0, 0, 255);
+
+    background-image: url(./img/Vågor.webp);
 }
 
 #R {
@@ -113,4 +118,12 @@ body {
     height: 70px;
     padding-left: 170px;
     padding-top: 70px;
+}
+
+#COOP {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    height: 60px;
+    margin-left: 250px;
+    margin-top: 140px;
 }
